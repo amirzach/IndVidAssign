@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b3aee5; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #fff; 
+}
+
+.timetable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.timetable th, .timetable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    background-color: #f2f2f2; 
+}
+
+.timetable td a {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.timetable td a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #007bff;
+    left: 0;
+    top: 100%;
+    transition: top 0.3s ease;
+}
+
+.timetable td a:hover::before {
+    top: 0;
+}
+
+.lecturer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1); 
+}
+
+.lecturer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.lecturer-details {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_about_me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Me"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/button_hobbies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hobbies"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/button_about_me"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/button_skills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skills"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/button_hobbies"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/button_timetable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Timetable"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/button_skills"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/button_uitm_website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UiTM Website"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/button_timetable"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/button_istudent_portal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="iStudent Portal"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/button_uitm_website"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Timetable</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+<div class="container">
+
+    <table class="timetable">
+        <tr>
+            <th>Day</th>
+            <th>08:00 hours - 09:00 hours</th>
+            <th>09:00 hours - 10:00 hours</th>
+            <th>10:00 hours - 11:00 hours</th>
+            <th>11:00 hours - 12:00 hours</th>        
+            <th>12:00 hours - 13:00 hours</th>
+            <th>13:00 hours - 14:00 hours</th>        
+            <th>14:00 hours - 15:00 hours</th>
+            <th>15:00 hours - 16:00 hours</th>
+            <th>16:00 hours - 17:00 hours</th>
+            <th>17:00 hours - 18:00 hours</th>     
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td colspan="2"><a href="#CSC645">CSC645</a></td>
+            <td colspan="2"><a href="#CSC649">CSC649</a></td>
+            <td colspan="2"></td>
+            <td colspan="2"><a href="#CSC584">CSC584</a></td>
+            <td colspan="2"><a href="#CSC580">CSC580</a></td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td colspan="2"><a href="#CSC649">CSC649</a></td>
+            <td colspan="2"><a href="#CSC645">CSC645</a></td>
+            <td colspan="2"></td>
+            <td colspan="2"><a href="#CSC580">CSC580</a></td>
+            <td colspan="2"><a href="#TIC501">TIC501</a></td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td colspan="2"><a href="#ENT600(Tutorial)">ENT600</a></td>
+            <td colspan="2"><a href="#CSP600">CSP600</a></td>
+            <td colspan="2"><a href="#CSC557">CSC557</a></td>
+            <td colspan="2"></td>
+            <td colspan="2"><a href="#CSC584">CSC584</a></td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td></td>
+            <td colspan="2"><a href="#ENT600(Lecture)">ENT600</a></td>
+            <td colspan="3"></td>
+            <td colspan="2"><a href="#CSP600">CSP600</a></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td colspan="2"><a href="#CSC557">CSC557</a></td>
+            <td colspan="8"></td>
+        </tr>    
+    </table>
+
+    <h1>List of Lecturers</h1>
+
+    <div id="CSC557" class="lecturer">
+        <img src="lecturer1.jpg" alt="Lecturer 1">
+        <div class="lecturer-details">
+            <h2>HANA FAKHIRA BINTI ALMARZUKI</h2>
+            <p>Email: hanafakhira@uitm.edu.my</p>
+            <p>Course: CSC557</p>
+        </div>
+    </div>
+
+    <div id="CSC580" class="lecturer">
+        <img src="lecturer2.jpg" alt="Lecturer 2">
+        <div class="lecturer-details">
+            <h2>TS. DR. HASLIZATUL FAIRUZ BINTI MOHAMED HANUM</h2>
+            <p>Email: haslizatul@uitm.edu.my</p>
+            <p>Course: CSC580</p>
+        </div>
+    </div>
+
+    <div id="CSC584" class="lecturer">
+        <img src="lecturer3.jpg" alt="Lecturer 3">
+        <div class="lecturer-details">
+            <h2>MUHAMAD RIDHWAN BIN MOHAMAD RAZALI</h2>
+            <p>Email: mridwan84@uitm.edu.my</p>
+            <p>Course: CSC584</p>
+        </div>
+    </div>
+
+    <div id="CSC645" class="lecturer">
+        <img src="lecturer4.jpg" alt="Lecturer 4">
+        <div class="lecturer-details">
+            <h2>DR. ALI BIN SEMAN</h2>
+            <p>Email: aliseman@uitm.edu.my</p>
+            <p>Course: CSC645</p>
+        </div>
+    </div>
+
+    <div id="CSC649" class="lecturer">
+        <img src="lecturer5.jpg" alt="Lecturer 5">
+        <div class="lecturer-details">
+            <h2>DR. SHARIFALILLAH BINTI NORDIN</h2>
+            <p>Email: sharifalillah@uitm.edu.my</p>
+            <p>Course: CSC649</p>
+        </div>
+    </div>
+
+    <div id="CSP600" class="lecturer">
+        <img src="lecturer6.jpg" alt="Lecturer 6">
+        <div class="lecturer-details">
+            <h2>DR. SHAKIRAH BINTI HASHIM</h2>
+            <p>Email: shakirahhashim@uitm.edu.my</p>
+            <p>Course: CSP600</p>
+        </div>
+    </div>
+
+    <div id="TIC501" class="lecturer">
+        <img src="lecturer7.jpg" alt="Lecturer 7">
+        <div class="lecturer-details">
+            <h2>DR. CATARINELLA PIERMAURO</h2>
+            <p>Email: piermauro@uitm.edu.my</p>
+            <p>Course: TIC501</p>
+        </div>
+    </div>
+
+    <div id="ENT600(Lecture)" class="lecturer">
+        <img src="lecturer8.jpg" alt="Lecturer 8">
+        <div class="lecturer-details">
+            <h2>BALQIS BINTI MOHD SHARIFF</h2>
+            <p>Email: balqis641@uitm.edu.my</p>
+            <p>Course: ENT600 Lecture</p>
+        </div>
+    </div>
+
+    <div id="ENT600(Tutorial)" class="lecturer">
+        <img src="lecturer9.jpg" alt="Lecturer 9">
+        <div class="lecturer-details">
+            <h2>ADLAN BIN AHMAD BAKRI</h2>
+            <p>Email: adlanbakri@uitm.edu.my</p>
+            <p>Course: ENT600 Tutorial</p>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script> 
+</body>
+</html>

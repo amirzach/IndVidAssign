@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AppAmir</string>
+    <string name="timetable">Timetable</string>
+    <string name="skills">Skills</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="bio_amir_zakariah_is_a_diligent_student_at_uitm">Bio: Amir Zakariah is a diligent student at UiTM.</string>
+    <string name="name_amir_zakariah">Name: Amir Zakariah</string>
+    <string name="about_me">About Me</string>
+    <string name="todo">TODO</string>
+    <string name="bio_amir_zakariah">Amir zakariah is a 23-year old student who is currently studying in UITM. He is currently in his 5th semester. He was born in Hartford City, Connecticut, USA and lived there for 5 years before moving to Malaysia</string>
+    <string name="pictureAmir">this is a picture of Amir\n</string>
+    <string name="strong_leadership_skills">Strong leadership skills</string>
+    <string name="skill_2">Is proficient in Malay, English, Japanese, and Italian</string>
+    <string name="skill_3">Works well under pressure</string>
+    <string name="skill_4">Is familiar with C++, Python, Java, Html, XML\n</string>
+    <string name="_1">1:</string>
+    <string name="hobby1">Playing Role-Playing and action videogames</string>
+    <string name="_2">2:</string>
+    <string name="hobby2">Reading Fantasy Novels</string>
+    <string name="_3">3:</string>
+    <string name="hobby3">Listening to 80s music</string>
+    <string name="_4">4:</string>
+    <string name="hobby4">Watching Kdramas and Anime</string>
+    <string name="back">back</string>
+</resources>
